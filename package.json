@@ -1,0 +1,29 @@
+{
+  "name": "influx-timed-cargo",
+  "version": "0.1.0",
+  "description": "InfluxDB client with the ability to batch requests based on timing and/or batch size",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modbsolutions/influx-timed-cargo.git"
+  },
+  "keywords": [
+    "influxdb",
+    "batch",
+    "cargo"
+  ],
+  "author": "MBS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modbsolutions/influx-timed-cargo/issues"
+  },
+  "homepage": "https://github.com/modbsolutions/influx-timed-cargo#readme",
+  "dependencies": {
+    "async-timed-cargo": "0.0.3",
+    "influx": "^4.2.2",
+    "microtime": "^2.1.1"
+  }
+}
